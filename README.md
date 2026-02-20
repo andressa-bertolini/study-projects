@@ -45,10 +45,10 @@ This repository contains small projects built everytime I'm learning and testing
         <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
     </tr>
     <tr>
-        <td><a href="https://projects.andressabertolini.com/study-projects/recipe-app/"><img src="assets/img/thumbnail-recipe-app.png" width="200"/></a></td>
-        <td><a href="https://projects.andressabertolini.com/study-projects/recipe-app/" target="_blank">Recipe App</a></td>
+        <td><img src="assets/img/thumbnail-recipe-app.png" width="200"/></td>
+        <td>Recipe App <br />(API broke)</td>
         <td>👩🏼‍🍳 Search for recipes and see recipe cards as results, with name and description. Click on it to visualize the external link with the full recipe page</td>
-        <td>Dec 12, 2020</td>
+        <td style="color: gray">Dec 12, 2020</td>
         <td><img src="assets/img/icon-react.svg" style="vertical-align: -2px" /> React</td>
     </tr>
     <tr>
