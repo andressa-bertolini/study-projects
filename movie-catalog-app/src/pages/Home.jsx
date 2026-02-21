@@ -9,15 +9,23 @@ const Home = () => {
 
     const [movies, setMovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
-    const [inputValue, setInputValue] = useState('');
   
     const searchMovies = async (title) => {
-      const response = await fetch(`${API_URL}&s=${title}&plot=full`);
-      const data = await response.json();
-  
-      setMovies(data.Search);
-      console.log(data.Search);
-    }
+        try {
+          const response = await fetch(`${API_URL}&s=${title}&plot=full`);
+          const data = await response.json();
+      
+          if (data.Response === "True") {
+            setMovies(data.Search);
+          } else {
+            setMovies([]);
+          }
+      
+        } catch (error) {
+          console.error("Error fetching movies:", error);
+          setMovies([]);
+        }
+    };
 
     const handleKeyDown = (event) => {
         if (event.key === 'Enter') {

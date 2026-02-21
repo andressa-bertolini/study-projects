@@ -7,7 +7,7 @@ import flagItaly from './assets/img/flag-italy.png';
 import flagJapan from './assets/img/flag-japan.png';
 
 const api = {
-  key: "**********",
+  key: "4e26469eb587d0e30e0d80f1415e8b14",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 

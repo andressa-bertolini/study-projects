@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="app">
-      {/* <Router basename="/react-short-projects/movie-catalog-app"> */}
-      <Router>
+      <Router basename="/study-projects/movie-catalog-app">
+      {/* <Router> */}
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/movie/:id" element={<MoviePage />} />

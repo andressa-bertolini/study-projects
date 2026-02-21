@@ -6,8 +6,8 @@ import chefHat from './assets/img/chef-hat.png';
 
 const App = () => {
 
-  const API_ID = "*****";
-  const API_KEY = "******************";
+  const API_ID = "4268b762";
+  const API_KEY = "8acb3c74dd6b60e9300b96e0a92f22ef";
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("")

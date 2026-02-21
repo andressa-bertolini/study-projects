@@ -7,7 +7,7 @@ const TicketList = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const res = await fetch('/_data/db.json');
+            const res = await fetch('/study-projects/helpdesk-app/_data/db.json');
             const data = await res.json();
             setTickets(data);
         };

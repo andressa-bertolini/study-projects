@@ -7,14 +7,11 @@ This was developed from a tutorial for study purposes: https://youtu.be/U9T6YkED
 <br />
 
 # Live Demo
-https://andressabertolini.com/project/react-short-projects/recipe-app/
+If you're like me and is always in a rush, just see the live demo, with no need to clone the project and set up the enviroment:
+https://andressabertolini.github.io/recipe-app/
 
-<br />
+[![Recipe App Thumbnail](thumbnail.png?raw=true "Weather App Preview")](https://andressabertolini.github.io/recipe-app/)
 
-# API
-https://api.edamam.com/
-
-<br />
 
 # How to execute
 
